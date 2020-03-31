@@ -60,7 +60,14 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "ask-sdk": {
+          "name": "ask-sdk",
+          "version": "2.7.0",
+          "dev": false,
+          "language": "nodejs"
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -71,7 +78,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585634040548
+    "lastSave": 1585634605771
   },
   "VCS_STATE": {
     "provider": "GitHub",
