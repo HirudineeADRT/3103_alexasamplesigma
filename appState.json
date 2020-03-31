@@ -1,0 +1,83 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "9665834e-e631-4dcc-a673-9bf3327fbf0e": {
+        "id": "9665834e-e631-4dcc-a673-9bf3327fbf0e",
+        "parent": null,
+        "name": "3103_alexasamplesigma.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "3103_alexasamplesigma.js",
+        "cursor": {
+          "lineNumber": 621,
+          "column": 15
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "9665834e-e631-4dcc-a673-9bf3327fbf0e"
+    ],
+    "currentFileId": "9665834e-e631-4dcc-a673-9bf3327fbf0e",
+    "resources": {
+      "alexaSK2062aea9dc3b43d0b4f3d47952090b10": {
+        "name": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
+        "type": "ALEXA",
+        "config": {
+          "type": 1,
+          "verifiedID": true,
+          "skillID": "amzn1.ask.skill.2062aea9-dc3b-43d0-b4f3-d47952090b10",
+          "applicationID": ""
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "3103_alexasamplesigma",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1585634040548
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "3103_alexasamplesigma",
+      "url": "https://github.com/HirudineeADRT/3103_alexasamplesigma"
+    }
+  }
+}
