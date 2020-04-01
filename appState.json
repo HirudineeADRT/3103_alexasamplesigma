@@ -11,8 +11,8 @@
         "isRemovable": true,
         "filePath": "3103_alexasamplesigma.js",
         "cursor": {
-          "lineNumber": 621,
-          "column": 15
+          "lineNumber": 16,
+          "column": 27
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -26,13 +26,50 @@
             "resourceName": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
             "config": {}
           }
+        ],
+        "testCases": {
+          "fe47c4ad-4bd1-48ce-a8b9-ee3ef5512ab7": {
+            "id": "fe47c4ad-4bd1-48ce-a8b9-ee3ef5512ab7",
+            "name": "Test event",
+            "functionId": "9665834e-e631-4dcc-a673-9bf3327fbf0e",
+            "event": "{\r\n    \"version\": \"1.0\",\r\n    \"session\": {\r\n        \"new\": true,\r\n        \"sessionId\": \"amzn1.echo-api.session.123456789012\",\r\n        \"application\": {\r\n            \"applicationId\": \"amzn1.ask.skill.987654321\"\r\n        },\r\n        \"user\": {\r\n            \"userId\": \"amzn1.ask.account.testUser\"\r\n        },\r\n        \"attributes\": {}\r\n    },\r\n    \"context\": {\r\n        \"AudioPlayer\": {\r\n            \"playerActivity\": \"IDLE\"\r\n        },\r\n        \"System\": {\r\n            \"application\": {\r\n                \"applicationId\": \"amzn1.ask.skill.987654321\"\r\n            },\r\n            \"user\": {\r\n                \"userId\": \"amzn1.ask.account.testUser\"\r\n            },\r\n            \"device\": {\r\n                \"supportedInterfaces\": {\r\n                    \"AudioPlayer\": {}\r\n                }\r\n            }\r\n        }\r\n    },\r\n    \"request\": {\r\n        \"type\": \"LaunchRequest\",\r\n        \"requestId\": \"amzn1.echo-api.request.1234\",\r\n        \"timestamp\": \"2016-10-27T18:21:44Z\",\r\n        \"locale\": \"en-US\"\r\n    }\r\n}",
+            "eventTemplate": "alexa-skills-kit-start-session"
+          }
+        }
+      },
+      "f97d9a04-050c-4cdb-b878-9d0d767b93f5": {
+        "id": "f97d9a04-050c-4cdb-b878-9d0d767b93f5",
+        "parent": null,
+        "name": "homeskill.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "homeskill.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "alexaHF1bb82f489e6a4fadbe5b3c96b7779a84",
+            "config": {}
+          }
         ]
       }
     },
     "openFiles": [
-      "9665834e-e631-4dcc-a673-9bf3327fbf0e"
+      "9665834e-e631-4dcc-a673-9bf3327fbf0e",
+      "f97d9a04-050c-4cdb-b878-9d0d767b93f5"
     ],
-    "currentFileId": "9665834e-e631-4dcc-a673-9bf3327fbf0e",
+    "currentFileId": "f97d9a04-050c-4cdb-b878-9d0d767b93f5",
     "resources": {
       "alexaSK2062aea9dc3b43d0b4f3d47952090b10": {
         "name": "alexaSK2062aea9dc3b43d0b4f3d47952090b10",
@@ -42,6 +79,16 @@
           "verifiedID": true,
           "skillID": "amzn1.ask.skill.2062aea9-dc3b-43d0-b4f3-d47952090b10",
           "applicationID": ""
+        }
+      },
+      "alexaHF1bb82f489e6a4fadbe5b3c96b7779a84": {
+        "name": "alexaHF1bb82f489e6a4fadbe5b3c96b7779a84",
+        "type": "ALEXA",
+        "config": {
+          "type": 2,
+          "verifiedID": false,
+          "skillID": "",
+          "applicationID": "amzn1.ask.skill.1bb82f48-9e6a-4fad-be5b-3c96b7779a84"
         }
       }
     },
@@ -78,7 +125,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585634605771
+    "lastSave": 1585718431371
   },
   "VCS_STATE": {
     "provider": "GitHub",
